@@ -44,23 +44,9 @@ resources/js/
   └── __tests__/     # Vitest specs
 ```
 
-## 🚀 Getting Started
+## 📌 About this repository
 
-```bash
-git clone https://github.com/asadullahchowdhury/task-vault.git
-cd task-vault
-
-composer install
-npm install
-
-cp .env.example .env
-php artisan key:generate
-# add your Supabase URL and anon key to .env
-
-npm run dev        # Vite dev server
-php artisan serve  # http://127.0.0.1:8000
-npm test           # run the test suite
-```
+This repository is a **portfolio showcase** of how I structure a Vue 3 + Pinia SPA with Supabase and tests. It isn't packaged for installation or reuse — feel free to browse the code.
 
 ## 👤 Author
 
